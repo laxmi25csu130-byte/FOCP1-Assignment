@@ -26,7 +26,7 @@ int main()
             rem = n%10;
             ans = ans+rem*base;
             n /= 10;
-            base *= 2;Q9.c
+            base *= 2;
         }
         printf("Binary to Decimal of %d is %d",temp,ans);
         return 0;
